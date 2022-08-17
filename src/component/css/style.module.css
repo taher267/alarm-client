@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
+:root {
+  --primary: #223a66;
+  --primaryLight: #355185;
+  --bodyColor: #6f8ba4;
+  --pink: #e12454;
+  --light: #fff;
+}
+html {
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  color: var(--bodyColor);
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  color: #222;
+}
+
+h1,
+.h1 {
+  font-size: 2.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 44px;
+}
+
+h3,
+.h3 {
+  font-size: 1.5rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+p {
+  line-height: 30px;
+}
+.section {
+  padding: 100px 0;
+}
+.textWhite {
+  color: var(--light);
+}
+.section-title {
+  margin-bottom: 70px;
+}
+.section-title h2 {
+  color: var(--primary);
+}
+.page-title .block h1 {
+  color: var(--light);
+}
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 0.75rem 2rem;
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all 0.35s ease;
+}
+.btnRound {
+  border-radius: 4px;
+}
+
+.btnRoundFull {
+  border-radius: 50px;
+}
+
+.btnMain {
+  background: var(--primary);
+  color: var(--light);
+  border-color: var(--primary);
+}
+.btnMain:hover {
+  background: var(--pink);
+  border-color: var(--pink);
+  color: var(--light);
+}
+
+.btnMain2 {
+  background: var(--pink);
+  color: var(--light);
+  border-color: var(--pink);
+}
+.btnMain2:hover {
+  background: var(--primary);
+  color: var(--light);
+  border-color: var(--primary);
+}
+.ctaPage {
+  background-size: cover !important;
+  position: relative;
+}
+.section {
+  padding: 100px 0;
+}
+
+.overlay::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  background: var(--primary);
+}

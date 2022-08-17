@@ -1,0 +1,132 @@
+#navbarmain .nav-link {
+  font-weight: 600;
+  padding: 15px 15px;
+  color: #222;
+  font-family: "Exo", sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  transition: all 0.25s ease;
+}
+#navbarmain .nav-link:hover,
+#navbarmain .active .nav-link {
+  color: #e12454;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.navbar-brand {
+  margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+  .navigation {
+    text-align: center;
+  }
+}
+.navigation .dropdown-menu {
+  padding: 0px;
+  border: 0px;
+  border-top: 5px solid #e12454;
+  background: #fff;
+  border-radius: 0px;
+}
+@media (max-width: 992px) {
+  .navigation .dropdown-menu {
+    text-align: center;
+    float: left !important;
+    width: 100%;
+    margin: 0;
+  }
+}
+.navigation .dropdown-toggle::after {
+  display: none;
+}
+.navigation .dropleft .dropdown-menu,
+.navigation .dropright .dropdown-menu {
+  margin: 0;
+}
+.navigation .dropleft .dropdown-toggle::before,
+.navigation .dropright .dropdown-toggle::after {
+  font-weight: bold;
+  font-size: 14px;
+  border: 0;
+  display: inline-block;
+  font-family: IcoFont !important;
+  vertical-align: 1px;
+}
+.navigation .dropleft .dropdown-toggle::before {
+  content: "\eac9";
+  margin-right: 5px;
+}
+.navigation .dropright .dropdown-toggle::after {
+  content: "\eaca";
+  margin-left: 5px;
+}
+.navigation .dropdown-item {
+  padding: 13px 20px;
+  background: transparent;
+  font-weight: 400;
+  color: #555;
+  border-bottom: 1px solid #eee;
+}
+.navigation li:last-child .dropdown-item {
+  border-bottom: 0;
+}
+.navigation .dropdown-submenu.active > .dropdown-toggle,
+.navigation .dropdown-submenu:hover > .dropdown-item,
+.navigation .dropdown-item.active,
+.navigation .dropdown-item:hover {
+  background: rgba(225, 36, 84, 0.05);
+  color: #e12454;
+}
+.navigation button:focus {
+  outline: 0;
+}
+@media (min-width: 992px) {
+  .navigation .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in, visibility 0s linear 0.2s,
+      transform 0.2s linear;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 200px;
+    transform: translateY(10px);
+  }
+  .navigation .dropleft .dropdown-menu,
+  .navigation .dropright .dropdown-menu {
+    margin-top: -5px;
+  }
+  .navigation .dropdown:hover > .dropdown-menu {
+    visibility: visible;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: -43px;
+}
+.name {
+  font-size: 10px !important;
+  display: block;
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+.thirdPartyLogin .btn {
+  padding: 0.5rem 0;
+  width: 100%;
+}

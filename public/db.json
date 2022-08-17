@@ -1,0 +1,210 @@
+{
+  "services": [
+    {
+      "id": "64c89cfc-44b5-4f45-84ec-79edbfa19c23",
+      "image": "/assets/images/service/service-1.jpg",
+      "title": "Child care",
+      "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+    },
+    {
+      "id": "fb49cd78-c1b9-4215-ba6a-34532516dba9",
+      "image": "/assets/images/service/service-2.jpg",
+      "title": "Personal Care",
+      "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+    },
+    {
+      "id": "0668db23-67ee-423b-93a6-ede1c73db87c",
+      "image": "/assets/images/service/service-3.jpg",
+      "title": "CT scan",
+      "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+    },
+    {
+      "id": "70239d8c-c91f-4da8-99be-b1527bf14407",
+      "image": "/assets/images/service/service-4.jpg",
+      "title": "Joint replacement",
+      "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+    },
+    {
+      "id": "caf44376-e6db-46d3-998e-550c75f3dcb8",
+      "image": "/assets/images/service/service-6.jpg",
+      "title": "Examination & Diagnosis",
+      "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+    },
+    {
+      "id": "16ec2add-dfd3-4e4b-976f-f049cc90085c",
+      "image": "/assets/images/service/service-8.jpg",
+      "title": "Alzheimer's disease",
+      "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+    }
+  ],
+  "doctors": [
+    {
+      "id": "2838bd9f-47db-430b-be9c-231cfdc07365",
+      "image": "/assets/images/team/1.jpg",
+      "name": "John Marshal",
+      "dept": "Cardiology",
+      "specialist": "Internist, Emergency Physician",
+      "degree": "professor"
+    },
+    {
+      "id": "e02409e1-ec71-40b6-8c15-2f03444a1d85",
+      "image": "/assets/images/team/3.jpg",
+      "name": "Harrision Samuel",
+      "specialist": "Surgeon, Сardiologist",
+      "dept": "Radiology"
+    },
+    {
+      "id": "b7553ed9-5799-4819-b418-2d5b8b61cd0d",
+      "image": "/assets/images/team/3.jpg",
+      "name": "Alexandar James",
+      "specialist": "Internist, General Practitioner",
+      "dept": "Dental",
+      "degree": "professor"
+    },
+    {
+      "id": "e35f5677-01e9-425e-8fd0-26b64d13fbda",
+      "image": "/assets/images/team/3.jpg",
+      "name": "Edward john",
+      "specialist": "Orthopedic Surgeon",
+      "dept": "Pediatry"
+    },
+    {
+      "id": "03663010-5928-4ab7-9dc5-15214c9e17d9",
+      "image": "/assets/images/team/3.jpg",
+      "name": "Thomas Henry",
+      "specialist": "Orthopedic Surgeon",
+      "dept": "Neurology",
+      "degree": "professor"
+    },
+    {
+      "id": "ad3a401c-304b-45ff-8df5-232a161e695a",
+      "image": "/assets/images/team/3.jpg",
+      "name": "Henry samuel",
+      "specialist": "Orthopedic Surgeon",
+      "dept": "Palmology"
+    },
+    {
+      "id": "afc90c92-7d56-4d6f-80e7-4fcc0fd58c57",
+      "image": "/assets/images/team/3.jpg",
+      "name": "Thomas alexandar",
+      "specialist": "Orthopedic Surgeon",
+      "dept": "Cardiology"
+    },
+    {
+      "id": "13b2669b-b407-4828-9e6c-ebf1fef2d335",
+      "image": "/assets/images/team/3.jpg",
+      "name": "Harisson Thomas",
+      "specialist": "Orthopedic Surgeon",
+      "dept": "Traumatology"
+    },
+    {
+      "id": "96d43896-85aa-4b93-8910-23e04ada001d",
+      "image": "/assets/images/team/4.jpg",
+      "name": "Jonas Thomson",
+      "specialist": "Orthopedic Surgeon",
+      "dept": "Cardiology"
+    },
+    {
+      "id": "5647ddc0-0a3d-4c89-8a6d-79483e33bc87",
+      "image": "/assets/images/team/3.jpg",
+      "name": "Henry Forth",
+      "specialist": "Orthopedic Surgeon",
+      "dept": "Hematology"
+    },
+    {
+      "id": "02bdf9e4-4afb-43c8-bd24-74632967ed77",
+      "image": "/assets/images/team/4.jpg",
+      "name": "Thomas Henry",
+      "specialist": "Orthopedic Surgeon",
+      "dept": "Dental",
+      "degree": "professor"
+    }
+  ],
+  "timeSchedule": [
+    {
+      "id": "7cb7ca91-8998-4456-939c-2b67de12c817",
+      "icon": "serviceLine",
+      "title": "24 Hours Service",
+      "heading": "1-800-700-6200",
+      "description": "Get ALl time support for emergency.We have introduced the principle of family medicine.",
+      "link": "Get ALl time support for emergency.We have introduced the principle of family medicine.",
+      "schedule": []
+    },
+    {
+      "id": "28b24b56-0d6f-4bee-9a8e-1063adeec69a",
+      "icon": "timeLine",
+      "title": "Timing schedule",
+      "heading": "Working Hours",
+      "description": "",
+      "schedule": [
+        {
+          "id": "1edc7e64-bd83-4f94-a718-cca14be9663d",
+          "day": "Sun - Wed",
+          "time": "8:00 - 17:00"
+        },
+        {
+          "id": "ef14d8a7-e79a-442b-90f3-5a8049e78b0f",
+          "day": "Thu - Fri",
+          "time": "9:00 - 17:00"
+        },
+        {
+          "id": "6a533c3f-76c5-4572-826e-3040420868e3",
+          "day": "Sat - sun",
+          "time": "10:00 - 17:00"
+        }
+      ],
+      "link": ""
+    },
+    {
+      "id": "43ca5b50-5c9c-4dc2-9739-4ffa7178447c",
+      "icon": "support",
+      "title": "Emegency Cases",
+      "heading": "Working Hours",
+      "description": "Get ALl time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency.",
+      "schedule": [],
+      "link": ""
+    }
+  ],
+  "awards": {
+    "title": "Award winning patient care",
+    "desc": " Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.",
+    "departments": [
+      {
+        "id": "fbcd0a35-7fbf-4cf7-bb36-1deed1e38780",
+        "icon": "lab",
+        "title": "Laboratory services",
+        "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+      },
+      {
+        "id": "1728fbd2-363e-4814-904e-b8e1656f917d",
+        "icon": "heartPulse",
+        "title": "Heart Disease",
+        "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+      },
+      {
+        "id": "421d5a29-8d6d-4b5c-9e96-09755906b3db",
+        "icon": "dental",
+        "title": "Dental Care",
+        "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+      },
+      {
+        "id": "0cadf399-f9a8-4235-9c9f-5332e2bc4909",
+        "icon": "body",
+        "title": "Neurology Sargery",
+        "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+      },
+      {
+        "id": "6c05c43e-2d88-401d-b20f-a7c17aa98e4f",
+        "icon": "brain",
+        "title": "Neurology Sargery",
+        "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+      },
+      {
+        "id": "54c2bb12-355f-482a-b34c-249a7cbcc9b6",
+        "icon": "dna",
+        "title": "Gynecology",
+        "desc": "Saepe nulla praesentium eaque omnis perferendis a doloremque."
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+.loginSignup .form-group .form-control {
+  height: 60px !important;
+  border: 1px solid var(--lightBlue);
+  box-shadow: none;
+  width: 100%;
+  background: #f4f9fc;
+  height: auto;
+}
